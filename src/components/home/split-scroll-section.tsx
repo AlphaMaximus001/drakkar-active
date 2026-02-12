@@ -13,7 +13,7 @@ const scrollImages = [
 
 export function SplitScrollSection() {
     return (
-        <section className="relative w-full flex flex-col lg:flex-row bg-background">
+        <section className="relative w-full flex flex-col lg:flex-row bg-background 3xl:max-w-[1600px] 3xl:mx-auto">
             {/* Left Content - Sticky */}
             <div className="w-full lg:w-1/2 lg:h-screen lg:sticky lg:top-0 flex items-center justify-center p-8 md:p-16 lg:p-24 z-10 bg-background">
                 <div className="space-y-6 max-w-xl">
