@@ -6,7 +6,7 @@ import Link from "next/link"
 
 export function GenderSplitSection() {
     return (
-        <section className="flex flex-col md:flex-row h-[600px] md:h-[800px] w-full">
+        <section className="flex flex-col md:flex-row h-[600px] md:h-[800px] w-full 3xl:max-w-[1600px] 3xl:mx-auto">
             {/* Men */}
             <div className="relative w-full md:w-1/2 h-full group overflow-hidden">
                 <Image
@@ -29,7 +29,7 @@ export function GenderSplitSection() {
             {/* Women */}
             <div className="relative w-full md:w-1/2 h-full group overflow-hidden">
                 <Image
-                    src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1000&auto=format&fit=crop"
+                    src="https://images.unsplash.com/photo-1571388072750-31a921b3d900?q=80&w=1325&auto=format&fit=crop"
                     alt="Women's Training"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
