@@ -19,7 +19,7 @@ export function HeroSection() {
                 </video>
             </div>
 
-            <div className="relative z-10 container flex flex-col items-center text-center gap-6 px-4">
+            <div className="relative z-10 container 3xl:max-w-[1600px] flex flex-col items-center text-center gap-6 px-4">
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-black text-white tracking-widest drop-shadow-xl uppercase max-w-4xl leading-tight">
                     Strength Woven Into Every Thread
                 </h1>

@@ -10,7 +10,7 @@ import { GenderSplitSection } from "@/components/home/gender-split-section"
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen font-body bg-background text-foreground">
-      <SiteHeader />
+      {/* <SiteHeader /> */}
 
       <main className="flex-grow">
         <HeroSection />
